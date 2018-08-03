@@ -1,0 +1,33 @@
+.mh-100{
+    min-height: 100vh;
+}
+
+.myBtn{
+    background-color: transparent;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background: #FF3C82;
+}
+
+.triangle{
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 150px;
+    height: 150px;
+    background-color: white;
+}
+
+.circle{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    border-radius: 50%;
+}
